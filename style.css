@@ -1,6 +1,6 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
+      background: url("ibanner.jpg");
       background-size: cover;
       color: white;
     }
@@ -9,11 +9,13 @@
     }
     h1 {
       font-size: 70px;
+      color: black;
     }
     img {
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
       border-radius: 20px;
+      height:400px;
     }
     ul {
       padding: 10px;
@@ -22,10 +24,11 @@
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
+      font-size: 25px;
     }
     div{
       max-width: 500px;
-      padding: 20px;
+      
       margin: 0 auto;
     }
     @media (max-width: 500px) {
@@ -38,3 +41,7 @@
         display: block;
       }
     }
+      body {
+        background-color:black;
+      }
+    
